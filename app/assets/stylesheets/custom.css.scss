@@ -1,0 +1,21 @@
+ // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.navbar {
+// Clear Sky from uigradients.com
+background: #005C97; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #005C97 , #363795); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #005C97 , #363795); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    // Gradient from uigradients.com   - Between the Clouds 
+  background: -webkit-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #73C8A9 10%, #373B44 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #73C8A9 10%, #373B44 90%); /* W3C */
+}
