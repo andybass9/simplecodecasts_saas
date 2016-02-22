@@ -4,6 +4,11 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+.alert-notice {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
 .navbar {
 // Clear Sky from uigradients.com
 background: #005C97; /* fallback for old browsers */
